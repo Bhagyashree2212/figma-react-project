@@ -15,35 +15,43 @@ import TrendingNow from './component/TrendingNow';
 import TopDeals from './component/TopDeals';
 import GenericAlternative from './component/GenericAlternative';
 import Membership from './component/Membership';
+import TrustSafety from './component/TrustSafety';
+import AppPromo from './component/AppPromo';
+import Reviews from './component/Reviews';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
 
-       
-       <Header/>
+
+        <Header />
         <PromoBar />
-      <NavBar />
-      <Hero />
+        <NavBar />
+        
+        <Hero />
+        <WelcomeStrip />
+        <PromoBanners />
+        <FrequentlyOrdered />
+        <HealthcareBanner />
+        <PopularCategories />
+        <TrendingNow />
+        <TopDeals />
+        <GenericAlternative />
+        <Membership />
+        <TrustSafety />
+        <AppPromo />
+        <Reviews />
 
-       <WelcomeStrip />
-      <PromoBanners />
-      <FrequentlyOrdered />
-      <HealthcareBanner />
-
-      <PopularCategories />
-<TrendingNow />
-
-<TopDeals />
-<GenericAlternative />
-<Membership />
-
-       <Body/>
-       <Footer/>
+        {/* <Body /> */}
+        {/* <Footer /> */}
       </header>
     </div>
   );
 }
 
 export default App;
+
+
+
+

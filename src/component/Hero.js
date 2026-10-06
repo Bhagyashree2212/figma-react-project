@@ -1,3 +1,4 @@
+// import {doctor} from "../../public/doctor.jpg"
 function Hero() {
   return (
     <section className="bg-blue-50 px-8 py-10 flex items-center justify-between">
@@ -42,10 +43,12 @@ function Hero() {
 
       {/* Right side - doctor image */}
       <div>
-        <img
-          src="/doctor.png"
+        <img 
+          src="../doctor.jpg"
+          // src={doctor}
           alt="Doctor"
-          className="w-96"
+          // className="w-78 h-25"
+          className="w-[450px] h-[390px] object-cover"
         />
       </div>
     </section>
